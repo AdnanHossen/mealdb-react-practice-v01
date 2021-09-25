@@ -1,0 +1,16 @@
+.mealdb-data-holder{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 2rem;
+  max-width: 95vw;
+  margin: 4rem auto;
+}
+
+.meals-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
